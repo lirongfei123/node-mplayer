@@ -1,0 +1,38 @@
+{
+  "author": {
+    "name": "lirongfei123",
+    "email": "lirongfei985@gmail.com"
+  },
+  "dependencies": {
+    "find-exec": "0.0.8"
+  },
+  "description": "Play audio files by shelling out to available audio tool.",
+  "devDependencies": {
+    "expect.js": "^0.3.1",
+    "mocha": "^1.21.4",
+    "mock-fs": "^3.11.0",
+    "proxyquire": "^1.0.1",
+    "sinon": "^1.10.3"
+  },
+  "directories": {},
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "audio",
+    "sound",
+    "play"
+  ],
+  "license": "MIT",
+  "name": "node-mplayer",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:lirongfei123/node-mplayer.git"
+  },
+  "scripts": {
+    "test": "export PATH=$PATH:./shims && node_modules/.bin/mocha tests.js"
+  },
+  "version": "0.0.1"
+}
